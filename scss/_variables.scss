@@ -1,0 +1,57 @@
+:root {
+  /* ---------- COLOR ---------- */
+
+  --white: white;
+  --black: black;
+
+  --c-main-lighter: #d1d5db;
+  --c-main-light: #9ca3af;
+  --c-main-text: #374151;
+  --c-main-title: #111827;
+
+  --c-accent: #ef4444;
+  --c-accent-light: #fef2f2;
+
+  --c-green: #10b981;
+  --c-green-light: #ecfdf5;
+
+  --c-blue: #3b82f6;
+  --c-blue-dark: #111827;
+
+  --c-orange: #f59e0b;
+
+  --c-bkg-quote: #f9fafb;
+
+  --c-grey: #6b7280;
+
+  /* ---------- FONT ---------- */
+
+  --ff-main: "Inter", Helvetica, Arial, sans-serif;
+
+  --fs-000: 0.75rem; //   12px
+  --fs-100: 0.875rem; //  14px
+  --fs-200: 0.9rem; //      16px
+  --fs-300: 1.125rem; //  18px
+  --fs-400: 1.2rem; //   20px
+  --fs-500: 2rem; //    32px
+  --fs-600: 2.7rem; //      48px
+
+  /* ---------- SPACE ---------- */
+
+  --spacer-xxs: 0.5rem;
+  --spacer-xs: 1rem;
+  --spacer-s: 1.5rem;
+  --spacer-m: 2rem;
+  --spacer-l: 3rem;
+  --spacer-xl: 4rem;
+  --spacer-xxl: 6rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --white: black;
+    --black: white;
+    --c-main-text: white;
+    --c-main-light: black;
+  }
+}
